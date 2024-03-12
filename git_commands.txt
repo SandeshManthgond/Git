@@ -1,0 +1,43 @@
+1. git init : to initialize to new repository from current repository
+2. git config --global user.name "abc" : provide user name for repository
+3. git config --global user.email "abc@gmail.com" : provide user email(your git mail)for repository
+4. touch sample.txt : create file
+5. cat sample.txt : to read the file
+6. git status : to check the status of the file
+       RED colour----> untracked(workspace)
+       GREEN colour---> tracked(staging area)
+7. git add . : add file to staging area
+8. git commit -m "commit name" : to commit
+9. git log --oneline : commit history
+10. git remote add origin "git_url" : add origin into remote repository
+11. git remote -v : to check remote connection
+12. git push origin master : to push 
+13.  git config --list : to check config
+14. pwd : present working directory
+15. echo "print_statement" : print statement
+16. echo "m1" >> sample.txt : create sample.txt with data m1
+17. git reset sample.txt : come back file from staging area to workspace
+18. git checkout sample.txt : come back file from commit to workspace (will work only one add .  and commit is not done)
+19. git reset --soft head~1 : remove only commit history (1 represents number of commit to remove)
+20. git reset --hard head~1 : remove both data and commit history
+21. git branch branch_name : to change branch
+22. git switch branch_name : it will switch to your current branch
+23. git checkout -b branch_name : it will create branch with dev and switch to that branch only
+24. git merge dev : it will merge all files from dev to master (within the master branch only)
+25. git diff master dev : compare master and dev branch within local repository
+26. git diff origin/master origin/dev  : compare both master and dev branch in remote repository
+27. git diff master origin/master : compare only master branch with both local and remote repository
+28. git diff master origin/dev : compare only devbranch with both local and remote repository
+29. git clone url_path : will give all backup or restore files
+30. git cherrry-pick commit_id : separate
+31. git branch -d branch_name : delete branch 
+32. git branch -D branch_name : delete forcefully
+33. git tag tag_name commit_id : assign tag to that particular commit
+34. ls -a : history
+35. vi .gitignore : if we dont want to commit from workspace
+    type i
+    *.js---> ignore all .js files
+    *.html---> ignore all .html files
+    esc
+    :wq
+    enter
