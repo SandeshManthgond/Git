@@ -4,7 +4,7 @@
 4. touch sample.txt : create file
 5. cat sample.txt : to read the file
 6. git status : to check the status of the file
-       RED colour----> untracked(workspace)
+       RED colour----> untracked(workspace).
        GREEN colour---> tracked(staging area)
 7. git add . : add file to staging area
 8. git commit -m "commit name" : to commit
